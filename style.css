@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oleo+Script:wght@400;700&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+
+/*   
+    font-family: "Oleo Script", system-ui;
+    font-family: "Winky Sans", sans-serif;
+    font-family: "Dancing Script", cursive;
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#main{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    height: 10vh;
+    width: 100%;
+    padding: 0 5vw;
+    z-index: 90;
+}
+
+nav a, i{
+    text-decoration: none;
+    font-size: 1.3vw;
+    /* color: #060505; */
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 4px 4px 8px black;
+}
+
+nav img{
+    width: 13%;
+    margin-top: 1vw;
+}
+
+.cntr-nav{
+    display: flex;
+    gap: 3.5vw;
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(150deg, rgb(246, 248, 248), rgb(153, 226, 226)); */
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220603/pngtree-macro-closeup-of-background-texture-featuring-coarse-iodized-salt-with-varied-crystal-sizes-photo-image_46820614.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.one h1{
+    position: absolute;
+    top: 33%;
+    left: 18%;
+    rotate: -15deg;
+    font-size: 5vw;
+    font-weight: 1000;
+    color: #060505;
+    font-family: "Dancing Script", cursive;
+}
+
+span1{
+    font-size: 20vw;
+    font-family: "Oleo Script", system-ui;
+    color: #060505;
+    position: absolute;
+    top: 30%;
+    left: 18%;
+    rotate: -15deg;
+}
+
+span2{
+    font-size: 20vw;
+    font-family: "Oleo Script", system-ui;
+    color: #060505;
+    z-index: 4;
+    position: absolute;
+    top: 9%;
+    right: 16%; 
+    rotate: -15deg;   
+}
+
+#coca{
+    position: absolute;
+    width: 35%;
+    z-index: 3;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#coca-glass{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 20%;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#coke-logo{
+    position: absolute;
+    width: 25%;
+    top: 72%;
+    right: 29%;
+    z-index: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#coke-img{
+    position: absolute;
+    width: 25%;
+    top: 43%;
+    right: 23%;
+    z-index: 3;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#lemon{
+    width: 25%;
+    position: absolute;
+    left: 3%;
+    bottom: 0;
+    rotate: -15deg;
+}
+#lemon-glass{
+    width: 16%;
+    position: absolute;
+    right: 2%;
+    top: 4%;
+    rotate: -180deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    z-index: 2;
+}
+
+#lemon-slice{
+    position: absolute;
+    width: 13%;
+    top: 12%;
+    left: 26%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+#ice{
+    position: absolute;
+    width: 12%;
+    top: 0;
+    left: 28%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+/* 2nd page... */
+
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150deg, #949393, #6d2c1f);
+
+}
+
+.left-two, .right-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vw;
+    height: 100%;
+    width: 50%;
+}
+
+.left-two img{
+    position: absolute;
+    top: 144%;
+    left: 12%;
+    width: 25%;
+    rotate: -18deg;
+}
+
+#two-img{
+    position: absolute;
+    top: 158%;
+    left: 3%;
+    width: 20%;
+}
+
+.right-two h1{
+    color: #fff;
+    font-size: 5vw;
+}
+
+.right-two p{
+    color: #fff;
+    font-size: 1.1vw;
+    width: 82%;
+}
+
+/* 3rd page */
+
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-150deg, #6d2c1f, #949393);
+    /* gap: 5vw;
+    overflow: hidden; */
+}
+
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 6vw;
+    height: 68vh;
+    width: 25vw;
+    background-color: #fff;
+    border-radius: 20px;
+    gap: 0.5vh;
+    z-index: 1;
+}
+
+.card:nth-child(1){
+    background: linear-gradient(#9d9db8, #25833e);
+    box-shadow: 5px 5px 10px rgba(212, 211, 211, 0.5);
+
+}
+
+.card:nth-child(2){
+    background: linear-gradient(#dacaca, #ab0b0b);
+    box-shadow: 5px 5px 10px rgba(212, 211, 211, 0.5);
+
+}
+
+.card:nth-child(3){
+    background: linear-gradient(#c2d3dc, #0a3a53);
+    box-shadow: 5px 5px 10px rgba(212, 211, 211, 0.5);
+
+}
+.card h1{
+    font-size: 3.5vw;
+    margin-top: 41vh;
+}
+
+.card button{
+    padding: 1vw 2vw;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 50px;
+    background-color: #6d2c1f;
+    color: #fff;
+}
+
+#sprite{
+    position: absolute;
+    top: -10%;
+    width: 105%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#cocacola-lemon{
+    position: absolute;
+    top: -25%;
+    left: 38%;
+    width: 57%;
+    rotate: 30deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;}
+
+#cocacola{
+    position: absolute;
+    top: -10%;
+    width: 105%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s}
+ 
+#cocacola-lemon, #cocacola{
+    display: none;
+}
+
+#pepsi{
+    position: absolute;
+    top: -13%;
+    width: 145%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+.sprite-lemon{
+    position: absolute;
+    top: -25%;
+    left: 38%;
+    width: 57%;
+    rotate: 30deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+
+}
+
+.pepsi-ice{
+    position: absolute;
+    top: -29%;
+    left: 25%;
+    width: 57%;
+    rotate: 290deg;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+.four{
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+ 
+@media (max-width: 799px){
+    .cntr-nav{
+        display: none;
+    }
+
+    .menu-bar{
+        font-size: 7vw;
+        padding: 7vw;
+    }
+
+    nav img{
+        width: 35%;
+    }
+
+    .one h1{
+        font-size: 9vw;
+        top: 46%;
+        left: 1%;
+        rotate: -25deg; 
+    }
+
+    span1 {
+        font-size: 23vw;
+        top: 48%;
+        left: 1%;
+        rotate: -25deg;
+    }
+
+    span2 {
+        font-size: 23vw;
+        top: 32%;
+        right: 2%;
+        rotate: -26deg;
+    }
+
+    #coca{
+        width: 84%;
+    }
+
+    #coke-img {
+        width: 50%;
+        top: 52%;
+        right: -4%;
+        rotate: 10deg;
+    }  
+    
+    #coke-logo {
+        width: 43%;
+        top: 65%;
+        right: 12%;
+    }
+
+    #coca-glass {
+        top: 22%;
+        left: 0%;
+        width: 42%;
+        rotate: 8deg;
+    }
+
+    #lemon-slice {
+        width: 24%;
+        top: 25%;
+        left: 3%;
+    }
+
+    #lemon-glass {
+        width: 40%;
+        right: 2%;
+        top: 4%;
+        rotate: 15deg;
+    }
+
+    #lemon {
+        width: 52%;
+        left: -2%;
+    }
+
+    .two{
+        flex-direction: column;
+        height: 150vh;
+    }
+
+    .left-two img {
+        top: 128%;
+        left: 38%;
+        width: 52%;
+        rotate: -9deg;
+    }
+
+    #two-img {
+        top: 134%;
+        left: 15%;
+        width: 37%;
+    }
+
+    .left-two{
+        width: 100%;
+        height: 30%;
+    }
+
+    .right-two{
+        width: 100%;
+        padding: 10vw;
+        height: 70%;
+    }
+
+    .right-two h1 {
+        font-size: 15vw;
+    }
+
+    .right-two p {
+        font-size: 4vw;
+        width: 100%;
+    }
+    
+    .three{
+        flex-direction: column;
+        height: 210vh;
+    }
+
+    .card{
+        width: 80vw;
+        padding: 5vw;
+    }
+
+    .card h1{
+        font-size: 12vw;
+    }
+
+    .card button {
+        padding: 3vw 5vw;
+        font-size: 4.8vw;
+        /* margin-bottom: 20vw; */
+
+    }
+
+    .sprite-lemon {
+        width: 80vw;
+        top: 1%;
+        left: 1%;
+    }
+
+    #sprite {
+        width: 95vw;
+        top: 10%;
+    }
+
+    #cocacola-lemon, #cocacola{
+        display: initial;
+    }
+
+    #cocacola-lemon {
+        width: 80vw;
+        left: 1%;  
+        top: -5%;
+        rotate: -10deg; 
+    }
+
+    #cocacola{
+        width: 95vw;
+        top: 10%;    
+    }
+
+    .pepsi-ice {
+        width: 95vw;
+        left: -18%;  
+        top: -10%;
+        rotate: 70deg;     
+    }
+
+    #pepsi {       
+        width: 130vw;
+        top: 8%;
+    }
+    
+}  
