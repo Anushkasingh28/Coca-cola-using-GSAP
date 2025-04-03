@@ -238,7 +238,7 @@ mm2.add("(min-width: 800px)", () => {
     start: "0% 50%",  
     end: "50% 50%", 
     scrub: 1,
-    markers: true
+    // markers: true
 }})
 
 tl2.from(".sprite-lemon",{
@@ -289,7 +289,7 @@ var tl2 = gsap.timeline({scrollTrigger:{
     start: "0% 90%",  
     end: "100% 100%", 
     scrub: 1,
-    markers: true
+    // markers: true
 }})
 
 tl2.from(".sprite-lemon",{
