@@ -244,25 +244,25 @@ mm2.add("(min-width: 800px)", () => {
 tl2.from(".sprite-lemon",{
     rotate: "-90deg",
     left: "-10%",
-    // top: "110%"
+    top: "110%"
 }, 'move2')
 
 tl2.from("#sprite",{
     rotate: "-90deg",
     left: "-10%",
-    // top: "110%"
+    top: "110%"
 }, 'move2')
 
 tl2.from(".pepsi-ice",{
     rotate: "90deg",
     left: "10%",
-    // top: "110%"
+    top: "110%"
 }, 'move2')
 
 tl2.from("#pepsi",{
     rotate: "90deg",
     left: "10%",
-    // top: "110%"
+    top: "110%"
 }, 'move2')
 
 tl2.to("#coca",{
