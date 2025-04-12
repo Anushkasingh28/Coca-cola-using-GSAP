@@ -244,25 +244,25 @@ mm2.add("(min-width: 800px)", () => {
 tl2.from(".sprite-lemon",{
     rotate: "-90deg",
     left: "-10%",
-    top: "110%"
+    // top: "110%"
 }, 'move2')
 
 tl2.from("#sprite",{
     rotate: "-90deg",
     left: "-10%",
-    top: "110%"
+    // top: "110%"
 }, 'move2')
 
 tl2.from(".pepsi-ice",{
     rotate: "90deg",
     left: "10%",
-    top: "110%"
+    // top: "110%"
 }, 'move2')
 
 tl2.from("#pepsi",{
     rotate: "90deg",
     left: "10%",
-    top: "110%"
+    // top: "110%"
 }, 'move2')
 
 tl2.to("#coca",{
@@ -287,49 +287,57 @@ mm2.add("(max-width: 799px)", () => {
 var tl2 = gsap.timeline({scrollTrigger:{
     trigger: ".three",
     start: "0% 90%",  
-    end: "100% 100%", 
+    end: "70% 100%", 
     scrub: 1,
     // markers: true
 }})
 
 tl2.from(".sprite-lemon",{
-    rotate: "-90deg",
-    left: "-10%",
-    top: "110%"
-    // y: 500,
-    // x: -900,
-    // rotate: -90,
+    x: -200,
+    opacity: 0, 
+    // duration: 0.5,
+    // top: "110%"
 
 }, 'move2')
 
 tl2.from("#sprite",{
-    rotate: "-90deg",
-    left: "-10%",
-    top: "110%"
+    
+    x: -200,
+    opacity: 0, 
+    duration: 0.5,
+    // top: "110%"
     
 }, 'move2')
 
 tl2.from(".pepsi-ice",{
-    rotate: "-90deg",
-    left: "-10%",
-    top: "110%"
+   
+    x: -200,
+    opacity: 0, 
+    // duration: 0.5,
+    // top: "110%"
 }, 'move2')
 
 tl2.from("#pepsi",{
-    rotate: "-90deg",
-    left: "-10%",
-    top: "110%"
+    
+    x: -200,
+    opacity: 0, 
+    // duration: 0.5,
+    // top: "110%"
 }, 'move2')
 
 tl2.from("#cocacola-lemon",{
-    rotate: "90deg",
-    left: "10%",
-    top: "110%"
+    
+    x: -200,
+    opacity: 0, 
+    // duration: 0.5,
+    // top: "110%"
 }, 'move2')
 
 tl2.from("#cocacola",{
-    rotate: "90deg",
-    left: "10%",
-    top: "110%"
+    
+    x: -200,
+    opacity: 0, 
+    // duration: 0.5,
+    // top: "110%"
 }, 'move2')
 
